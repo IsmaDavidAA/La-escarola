@@ -2,11 +2,32 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
-  background: #0c0b09;
+  /*font-family: "Open Sans", sans-serif;*/
+  /*font-family: "Poppins",sans-serif;*/
+  background: #444444;
   color: #fff;
 }
-
+#map{
+  padding-left: 26%;
+}
+#subtitle1{
+  font-family: "Satisfy", serif;
+}
+#subtitle2{
+  font-family: "Satisfy", serif;
+}
+#subtitle3{
+  font-family: "Satisfy", serif;
+}
+#subtitle4{
+  font-family: "Satisfy", serif;
+}
+#subtitle5{
+  font-family: "Satisfy", serif;
+}
+#subtitle6{
+  font-family: "Satisfy", serif;
+}
 a {
   color: #cda45e;
   text-decoration: none;
@@ -23,11 +44,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", serif;
+  font-family: "Satisfy", serif;
 }
 
-title {
-  font-family: "Santisfy",sans-serif;
+#T{
+  font-family: "Satisfy", serif;
+}
+#inscribete{
+  font-size: 16px;
 }
 
 /*--------------------------------------------------------------
@@ -267,7 +291,7 @@ title {
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .navbar a i,
@@ -456,7 +480,7 @@ title {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/fondo.jpg") top center;
   background-size: cover;
   position: relative;
   padding: 0;
@@ -464,7 +488,7 @@ title {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(236, 236, 236, 0.5);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -487,16 +511,16 @@ title {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
-  font-family: "Poppins", sans-serif;
+  color: rgb(0, 0, 0);
+  font-family: font-family: "Satisfy", serif;
 }
 
 #hero h1 span {
-  color: #cda45e;
+  color: #86632d;
 }
 
 #hero h2 {
-  color: #eee;
+  color: rgb(0, 0, 0);
   margin-bottom: 10px 0 0 0;
   font-size: 22px;
 }
@@ -516,7 +540,7 @@ title {
   border-radius: 50px;
   transition: 0.3s;
   line-height: 1;
-  color: white;
+  color: rgb(0, 0, 0);
   border: 2px solid #cda45e;
 }
 
@@ -695,7 +719,6 @@ section {
 
 .section-title p {
   margin: 0;
-  margin: 0;
   font-size: 36px;
   font-weight: 700;
   font-family: "Playfair Display", serif;
@@ -856,7 +879,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Why Us
+# Productos
 --------------------------------------------------------------*/
 .why-us .box {
   padding: 50px 30px;
